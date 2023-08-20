@@ -38,8 +38,8 @@ const Home = () => {
     height: 250px;
   }
   @media (max-width: 768px) {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
   
   }
