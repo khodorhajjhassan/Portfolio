@@ -1,20 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SideBar from './SideBar';
 import SideBarRight from './SideBarRight';
 import styled, { keyframes } from "styled-components";
 import profielP from "../../assets/khodor-pp.png"
-import { useDispatch, useSelector } from 'react-redux';
-import { toggleClicked } from '../../redux/toggleSlice';
 
 
 const Home = () => {
-
-  const isToggleClicked = useSelector((state)=>state.toggle);
-  const dispatch=useDispatch();
-
-  const handleToggleClick = () =>{
-    dispatch(toggleClicked)
-  }
 
   const contentHeight = `calc(100vh - 4rem)`;
 
@@ -58,14 +49,14 @@ const Home = () => {
 
   const one = <h2 className='text-white my-2'>Hello, my name is</h2>;
   const two = <h3 className='text-lg font-bold text-blue-300 my-2'>KHODOR HAJJ HASSAN</h3>
-  const three = <p className='text-white md:text-base text-sm '>A passionate junior full-stack web developer. With a solid technical foundation, I bring forth a distinct blend of skills, adaptability, and unwavering attention to detail. My journey in web development has equipped me with the tools to craft innovative digital solutions and bring ideas to life. I'm excited to embark on new challenges and create engaging web experiences that leave a lasting impact.</p>
+  const three = <p className='text-white md:text-base text-sm text-justify '>A passionate junior full-stack web developer. With a solid technical foundation, I bring forth a distinct blend of skills, adaptability, and unwavering attention to detail. My journey in web development has equipped me with the tools to craft innovative digital solutions and bring ideas to life. I'm excited to embark on new challenges and create engaging web experiences that leave a lasting impact.</p>
  
   const items =[one,two,three];
   return (
     <>
       <SideBar />
-      <div className={`bg-black flex flex-col h-screen w-4/5 m-auto md:p-6 p-2 duration-300 `}  style={{ height: contentHeight }}>
-        <div className='flex md:flex-row flex-col gap-4 items-center md:my-10 my-2 '>
+      <div className={`bg-black flex flex-col h-screen md:w-4/5 w-full m-auto md:p-6 p-2 duration-300   `} id='top' style={{ height: contentHeight }}>
+        <div className='flex md:flex-row flex-col gap-4 items-center md:mt-24 md:mb-10 mb-10 mt-20 '>
           <div className='flex-1'>
             <h2 className='text-blue-300 capitalize'>Welcome to my portfolio</h2>
             <h2 className='text-white capitalize md:text-5xl text-lg  font-bold'>

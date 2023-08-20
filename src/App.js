@@ -7,10 +7,10 @@ import {
   Outlet
 } from "react-router-dom";
 import './App.css';
-import Home from './components/home/Home';
 import NavLayout from './layout/NavLayout';
 import FooterLayout from './layout/FooterLayout';
 import Navbar from './components/home/Navbar';
+import Main from './components/Main';
 
 
 function Layout() {
@@ -28,7 +28,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
+      <Route index element={<Main />} />
       <Route path="/navbar" element={<Navbar />} />
 
       </Route>
