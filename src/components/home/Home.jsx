@@ -7,7 +7,6 @@ import profielP from "../../assets/khodor-pp.png"
 
 const Home = () => {
 
-  const contentHeight = `calc(100vh - 4rem)`;
 
   const profileAnimation = keyframes`
   0% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
@@ -55,7 +54,7 @@ const Home = () => {
   return (
     <>
       <SideBar />
-      <div className={`bg-black flex flex-col h-screen md:w-4/5 w-full m-auto md:p-6 p-2 duration-300   `} id='top' style={{ height: contentHeight }}>
+      <div className={`bg-black flex flex-col  md:w-4/5 w-full m-auto md:p-6 p-2 duration-300   `} id='top' >
         <div className='flex md:flex-row flex-col gap-4 items-center md:mt-24 md:mb-10 mb-10 mt-20 '>
           <div className='flex-1'>
             <h2 className='text-blue-300 capitalize'>Welcome to my portfolio</h2>
