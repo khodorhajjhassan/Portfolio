@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className={`bg-blue-300 shadow-lg shadow-blue-300 h-screen fixed top-0 -right-0 duration-300  p-10 md:w-96 w-48 z-10 ${isToggleClicked ? "right-0" :"-right-96"} `}>
+        <div className={`bg-blue-300 shadow-lg shadow-blue-300 h-screen fixed top-0 -right-0 duration-300 overflow-y-auto  p-10 md:w-96 w-48 z-10 ${isToggleClicked ? "right-0" :"-right-96"} `}>
            <div className='mt-24 flex flex-col md:items-center justify-between  h-96  gap-12'>
               <a href="#aboutMe"  onClick={handleToggleClick}>
             <div className='flex items-center gap-2 font-bold text-white duration-300 hover:text-black  '>

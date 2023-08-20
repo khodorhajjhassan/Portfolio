@@ -62,7 +62,7 @@ const Home = () => {
               Embark on a Journey of Innovation and Creativity: Explore My Interactive Portfolio
             </h2>
             <button className='text-white md:mt-10 mt-5 p-2 border-2 font-bold duration-300 hover:bg-blue-300 hover:text-black hover:shadow-lg	hover:shadow-blue-300'>
-              Learn More
+              <a href="#aboutMe"> Learn More</a>
             </button>
           </div>
           <div className='flex-1'>

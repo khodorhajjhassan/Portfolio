@@ -30,7 +30,7 @@ const About = () => {
                         </div>
                         <div className={`block ${click ? "hidden" : "block"}`}>
                             <h3 className='capitalize text-xl font-bold'>full stack web developer</h3>
-                            <p className='italic text-gray-300 capitalize'><a href="">Esa Coding Lab</a></p>
+                            <p className='italic text-gray-300 capitalize'><a href="">ESA Coding Lab</a></p>
                             <p className='italic text-gray-300 capitalize'>institut francais nabatieh</p>
                         </div>
         </div>

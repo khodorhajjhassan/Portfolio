@@ -49,7 +49,7 @@ import {
             img:p1,
             desc:"Created an efficient bus transportation management system with integration for streamlined image uploads and secure payment processing. Admins can manage stations, buses, and travel times. Drivers can register, and users can book tickets securely online. Enhanced user experience through effective use of technology.",
             code:[{name:"Bootstrap",color:"bg-purple-500"},{name:"JavaScript",color:"bg-yellow-500"},{name:"MySql",color:"bg-orange-500"},{name:"PHP",color:"bg-purple-700"},{name:"Stripe",color:"bg-blue-500"}],
-            source:""
+            source:"https://github.com/khodorhajjhassan/transportation-Managment-System"
         },
        
         {
@@ -64,6 +64,6 @@ import {
             img:p3,
             desc:"Developed a dynamic job portal platform for my senior project, enabling seamless interaction between companies and jobseekers. Employed a variety of technologies to facilitate company registration, job posting, jobseeker registration, job search, and application submission. Ensured a user-friendly interface and efficient data management.",
             code:[{name:"Bootstrap",color:"bg-purple-500"},{name:"JavaScript",color:"bg-yellow-500"},{name:"MySql",color:"bg-orange-500"},{name:"PHP",color:"bg-purple-700"}],
-            source:""
+            source:"https://github.com/khodorhajjhassan/Job-Portal"
         },
       ]
