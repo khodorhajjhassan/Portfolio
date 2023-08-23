@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SideBar from './SideBar';
 import SideBarRight from './SideBarRight';
 import styled, { keyframes } from "styled-components";
@@ -6,6 +6,23 @@ import profielP from "../../assets/khodor-pp.png"
 
 
 const Home = () => {
+
+  
+  const [display, setDisplay] = useState('');
+  const [index, setIndex] = useState(0);
+  
+  const delay = 100;
+  const text ='   Welcome to my portfolio';
+  
+  useEffect(() => {
+    if (index < text.length) {
+      setTimeout(() => {
+        setDisplay(prevText => prevText + text.charAt(index));
+        setIndex(prevIndex => prevIndex + 1);
+      }, delay);
+    }
+  }, [index]);
+  
 
 
   const profileAnimation = keyframes`
@@ -57,9 +74,9 @@ const Home = () => {
       <div className={`bg-black flex flex-col  md:w-4/5 w-full m-auto md:p-6 p-2 duration-300   `} id='top' >
         <div className='flex md:flex-row flex-col gap-4 items-center md:mt-24 md:mb-10 mb-10 mt-20 '>
           <div className='flex-1'>
-            <h2 className='text-blue-300 capitalize'>Welcome to my portfolio</h2>
+            <h2 className='text-blue-300 capitalize'>{display}</h2>
             <h2 className='text-white capitalize md:text-5xl text-lg  font-bold'>
-              Embark on a Journey of Innovation and Creativity: Explore My Interactive Portfolio
+              Embark on a Journey of Innovation and Creativity:Explore My Interactive Portfolio
             </h2>
             <button className='text-white md:mt-10 mt-5 p-2 border-2 font-bold duration-300 hover:bg-blue-300 hover:text-black hover:shadow-lg	hover:shadow-blue-300'>
               <a href="#aboutMe"> Learn More</a>
