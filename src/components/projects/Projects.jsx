@@ -16,9 +16,15 @@ const Projects = () => {
               <div className='p-4  '>
                 <div className=' flex  items-center justify-between mb-4'>
                 <h2 className='font-bold text-blue-300 md:text-lg text-base'>{project.name}</h2>
+                <div className='flex gap-4'>
                     <a target='blank' className='block' href={project.source}>
-                        <i className="fa-brands fa-github text-xl   hover:scale-110 duration-300 hover:text-blue-300 "></i>
+                        <i className={`fa-brands fa-github text-xl ${project.source ? "block" : "hidden"}  hover:scale-110 duration-300 hover:text-blue-300 `}></i>
                         </a>
+                        <a target='blank' className='block' href={project.url}>
+                        <i className={`fa-solid fa-globe text-xl    hover:scale-110 duration-300 hover:text-blue-300 ${project.url ? "block" : "hidden"} `}></i>
+                        </a>
+
+                </div>
                 </div>
                 <p className='md:text-base text-sm text-justify mb-5'>{project.desc}</p>
                 <div className='flex items-center flex-wrap gap-2'>

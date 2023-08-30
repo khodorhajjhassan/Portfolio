@@ -78,7 +78,7 @@ const Home = () => {
             <h2 className='text-white capitalize md:text-5xl text-lg  font-bold'>
               Embark on a Journey of Innovation and Creativity:Explore My Interactive Portfolio
             </h2>
-            <button className='text-white md:mt-10 mt-5 p-2 border-2 font-bold duration-300 hover:bg-blue-300 hover:text-black hover:shadow-lg	hover:shadow-blue-300'>
+            <button className='text-white md:mt-10 mt-5 p-2 border-2 font-bold duration-300 md:bg-transparent bg-blue-300 md:text-white text-black hover:bg-blue-300 md:shadow-none shadow-lg shadow-blue-300  hover:text-black hover:shadow-lg shadow-blue-300	hover:shadow-blue-300'>
               <a href="#aboutMe"> Learn More</a>
             </button>
           </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const About = () => {
 
-    const [click,setClick]=useState(false)
+    const [click,setClick]=useState(true)
   return (
     <div>
         <div className='md:w-4/5 w-full m-auto md:p-6 p-2 my-10' id='aboutMe'>

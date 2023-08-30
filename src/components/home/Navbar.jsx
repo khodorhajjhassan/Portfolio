@@ -25,7 +25,7 @@ const Navbar = () => {
             </a>
             <a href="#Skills"  onClick={handleToggleClick}>
             <div className='flex items-center gap-2 font-bold text-white duration-300 hover:text-black'>
-            <i class="fa-solid fa-file"></i>
+            <i class="fa-solid fa-pen-nib"></i>
             <p className='text-xl'>Skills</p>
             </div>
             </a>

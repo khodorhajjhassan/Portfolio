@@ -49,7 +49,8 @@ import {
             img:p1,
             desc:"Created an efficient bus transportation management system with integration for streamlined image uploads and secure payment processing. Admins can manage stations, buses, and travel times. Drivers can register, and users can book tickets securely online. Enhanced user experience through effective use of technology.",
             code:[{name:"Bootstrap",color:"bg-purple-500"},{name:"JavaScript",color:"bg-yellow-500"},{name:"MySql",color:"bg-orange-500"},{name:"PHP",color:"bg-purple-700"},{name:"Stripe",color:"bg-blue-500"}],
-            source:"https://github.com/khodorhajjhassan/transportation-Managment-System"
+            source:"https://github.com/khodorhajjhassan/transportation-Managment-System",
+            url:""
         },
        
         {
@@ -57,13 +58,17 @@ import {
             img:p2,
             desc:"Designed a comprehensive e-commerce platform using the MERN stack. Empowered users to explore products, add to cart, create wishlists, compare items, track delivery status, and engage through various features. Integrated state management and utilized modern design aesthetics for an optimal user experience.",
             code:[{name:"Tailwind",color:"bg-blue-700"},{name:"Node.js",color:"bg-green-500"},{name:"Express.js",color:"bg-yellow-500"},{name:"React",color:"bg-blue-500"},{name:"MongoDB",color:"bg-green-500"},{name:"Redux",color:"bg-purple-500"},{name:"Stripe",color:"bg-blue-400"}],
-            source:""
+            source:"",
+            url:"https://foot-vibe.vercel.app/"
+
         },
         {
             name:"Job Portal",
             img:p3,
             desc:"Developed a dynamic job portal platform for my senior project, enabling seamless interaction between companies and jobseekers. Employed a variety of technologies to facilitate company registration, job posting, jobseeker registration, job search, and application submission. Ensured a user-friendly interface and efficient data management.",
             code:[{name:"Bootstrap",color:"bg-purple-500"},{name:"JavaScript",color:"bg-yellow-500"},{name:"MySql",color:"bg-orange-500"},{name:"PHP",color:"bg-purple-700"}],
-            source:"https://github.com/khodorhajjhassan/Job-Portal"
+            source:"https://github.com/khodorhajjhassan/Job-Portal",
+            url:""
+
         },
       ]
