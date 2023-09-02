@@ -58,7 +58,7 @@ import {
             img:p2,
             desc:"Designed a comprehensive e-commerce platform using the MERN stack. Empowered users to explore products, add to cart, create wishlists, compare items, track delivery status, and engage through various features. Integrated state management and utilized modern design aesthetics for an optimal user experience.",
             code:[{name:"Tailwind",color:"bg-blue-700"},{name:"Node.js",color:"bg-green-500"},{name:"Express.js",color:"bg-yellow-500"},{name:"React",color:"bg-blue-500"},{name:"MongoDB",color:"bg-green-500"},{name:"Redux",color:"bg-purple-500"},{name:"Stripe",color:"bg-blue-400"}],
-            source:"",
+            source:"https://github.com/khodorhajjhassan/E-commerce",
             url:"https://foot-vibe.vercel.app/"
 
         },
