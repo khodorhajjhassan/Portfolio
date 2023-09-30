@@ -17,11 +17,14 @@ import {
     SiVisualstudiocode,
     SiInsomnia,
     SiTailwindcss,
+    SiNextdotjs,
+    SiTypescript,
   } from "react-icons/si";
 
   import p1 from './assets/TMG.png'
   import p2 from './assets/e-comerce.png'
   import p3 from './assets/jp.png'
+  import p4 from './assets/hr-system.png'
 
 
 
@@ -31,7 +34,9 @@ import {
         { name: "Bootstrap", icon: FaBootstrap },
         { name: "Tailwind", icon: SiTailwindcss },
         { name: "JavaScript", icon: SiJavascript },
+        { name: "TypeScript", icon: SiTypescript },
         { name: "React", icon: FaReact },
+        { name: "Next.js", icon: SiNextdotjs },
         { name: "Redux", icon: SiRedux },
         { name: "Node.js", icon: FaNodeJs },
         { name: "Express.js", icon: SiExpress },
@@ -71,4 +76,13 @@ import {
             url:""
 
         },
+        {
+          name:"HR Management System",
+          img:p4,
+          desc:"Created a web-based HR Management System to facilitate efficient employee-HR interactions, enabling employees to submit requests, HR to respond promptly, and facilitating secure document uploads",
+          code:[{name:"Nextjs",color:"bg-orange-500"},{name:"Typescript",color:"bg-blue-700"},{name:"MySql",color:"bg-orange-500"},{name:"Tailwind",color:"bg-blue-500"}],
+          source:"",
+          url:""
+
+      },
       ]
